@@ -17,6 +17,5 @@ echo " "
 
 # quit
 read -n 1 -sp "Press any key to exit..."
-echo " "
 osascript -e 'quit app "Terminal"'
 killall Terminal
